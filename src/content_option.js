@@ -12,7 +12,7 @@ const introdata = {
         third: "I develop amazing algorithms",
     },
     description: "Student at Indian Institute of Technology, Gandhinagar. Interested in Artificial Intelligence and Data Science.",
-    your_img_url: "https://i.gifer.com/RQt6.gif",
+    your_img_url: "https://i.gifer.com/1LDe.gif",
 };
 
 const dataabout = {
