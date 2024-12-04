@@ -71,6 +71,11 @@ const dataportfolio = [
         description: "Python Script for Calculating Amount of Stocks Required for creating an Equal Weight S&P 500 Fund",
         link: "https://github.com/kalpshah18/S-P500IndexFund",
     },
+    {
+        img: "https://i.postimg.cc/sXj7MtqJ/Portfolio-Screenshot.png",
+        description: "Portfolio Website",
+        link: "https://portfolio-website-bqkwrjbrf-protroopers-projects.vercel.app/",
+    },
 ];
 
 const contactConfig = {
