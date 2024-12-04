@@ -8,6 +8,7 @@ import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
+import { Analytics } from "@vercel/analytics/react"
 import "./App.css";
 
 function _ScrollToTop(props) {
@@ -22,6 +23,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <Analytics />
       <div className="cursor__dot">
         <AnimatedCursor
           innerSize={15}
