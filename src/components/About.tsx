@@ -26,6 +26,7 @@ export default function About({ about }: AboutProps) {
               src={about.aboutImage}
               alt="About Profile"
               fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 380px, 420px"
               className="object-cover"
             />
           </div>
