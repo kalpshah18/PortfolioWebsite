@@ -9,7 +9,7 @@
     "logoName": "Kalp Shah",
     "logoIcon": "/assets/favicon.png",
     "roleGreeting": "Hi! This is",
-    "headlineRole": "Quant Dev Intern @ Graviton Research Capital",
+    "headlineRole": "Incoming Quant Dev Intern @ Graviton Research Capital",
     "subRole": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",
     "profileImage": "/assets/pf.jpeg",
     "resumeUrl": "/assets/cv.pdf",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Resume",
-      "href": "/assets/cv.pdf",
+      "href": "/assets/Kalp_CV.pdf",
       "isExternal": true
     },
     {
@@ -71,7 +71,7 @@
       "iconLink": "http://gravitontrading.com/",
       "items": [
         {
-          "role": "SDE Intern (Quant Tools)",
+          "role": "Incoming SDE Intern (Quant Tools)",
           "organization": "Graviton Research Capital",
           "duration": "(July 2027 - December 2027)"
         }
@@ -101,12 +101,24 @@
         "title": "Belief Tracking for Countering LLM Negotiation Agents using Hidden Markov Models",
         "description": "Research Project on Agentic Negotiation, using HMMs to model negotiation strategies and probabilities of preferences.",
         "image": "/assets/HMM-Neg.png",
+        "buttons": []
+      },
+      {
+        "title": "Realtime Carbon Credits Markets Analysis Platform",
+        "description": "Full-stack real-time analytics platform (Next.js, WebSocket, PostgreSQL) serving live carbon credit pricing, trend signals, and risk analysis. Built at Inter-IIT Tech Meet 14.0",
+        "image": "/assets/CarbonCredits.png",
         "buttons": [
           {
             "label": "Project Link",
-            "url": "https://github.com/kalpshah18/HMM-Based-Belief-Tracking-for-LLM-Negotiation"
+            "url": "https://github.com/kalpshah18/InterIITTech_"
           }
         ]
+      },
+      {
+        "title": "Low Latency Trade Matching Engine",
+        "description": "Sub-microsecond order execution engine designed for high-frequency trading (HFT) environments. Built with modern C++26, utilizing std::hive for high-density memory layouts to maximize throughput under heavy market data load.",
+        "image": "/assets/TradeMatchingEngine.png",
+        "buttons": []
       }
     ]
   },
