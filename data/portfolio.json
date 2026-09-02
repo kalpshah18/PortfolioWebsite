@@ -107,36 +107,6 @@
             "url": "https://github.com/kalpshah18/HMM-Based-Belief-Tracking-for-LLM-Negotiation"
           }
         ]
-      },
-      {
-        "title": "osl.",
-        "description": "Compiler for an unambiguous programming language. Custom unambiguous grammar with custom bytecode and virtual machine.",
-        "image": "/assets/osl.png",
-        "buttons": [
-          {
-            "label": "Project Link",
-            "url": "https://github.com/mshandilya/osl."
-          },
-          {
-            "label": "Documentation",
-            "url": "https://guntas-13.github.io/osl.docs/"
-          }
-        ]
-      },
-      {
-        "title": "Secure ATM",
-        "description": "A secure client-server ATM simulation implementing custom encrypted communication with mutual authentication.",
-        "image": "/assets/3-atm.png",
-        "buttons": [
-          {
-            "label": "Project Link",
-            "url": "https://github.com/guntas-13/secure-atm"
-          },
-          {
-            "label": "Deployed UI",
-            "url": "https://guntas-13.github.io/secure-atm/"
-          }
-        ]
       }
     ]
   },
