@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/* Nav Link Hover Underline */
+.nav-link-custom {
+  transition: all 300ms ease;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+  cursor: pointer;
+}
+
+/* Custom Buttons matching guntas-13.github.io */
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8.5rem;
+  border-radius: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.btn-color-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background: transparent;
+  color: black;
+}
+
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+  border-color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
+.project-btn {
+  color: black;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  background: transparent;
+  padding: 0.85rem 1.25rem;
+  width: auto;
+  min-width: 7.5rem;
+}
+
+.project-btn:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+  border-color: rgb(53, 53, 53);
+}
+
+/* Card details containers */
+.details-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+/* Section pic container */
+.section__pic-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Project images */
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-img:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Profile Caption */
+.profile-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgb(85, 85, 85);
+  margin-top: 0.75rem;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.35rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

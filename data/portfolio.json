@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "Portfolio Kalp",
+    "description": "Personal Portfolio Website of Kalp Shah",
+    "favicon": "/assets/favicon.png"
+  },
+  "personal": {
+    "name": "Kalp Shah",
+    "logoName": "Kalp Shah",
+    "logoIcon": "/assets/favicon.png",
+    "roleGreeting": "Hi! This is",
+    "headlineRole": "Quant Dev Intern @ Graviton Research Capital",
+    "subRole": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",
+    "profileImage": "/assets/pf.jpeg",
+    "resumeUrl": "/assets/cv.pdf",
+    "resumeButtonText": "Download CV",
+    "contactButtonText": "Contact Me"
+  },
+  "navLinks": [
+    {
+      "name": "About",
+      "href": "#about"
+    },
+    {
+      "name": "Resume",
+      "href": "/assets/cv.pdf",
+      "isExternal": true
+    },
+    {
+      "name": "Blog",
+      "href": "https://kalpshah18.github.io/blog",
+      "isExternal": true
+    },
+    {
+      "name": "Projects",
+      "href": "#projects"
+    },
+    {
+      "name": "Posters",
+      "href": "#posters"
+    },
+    {
+      "name": "PORs",
+      "href": "#blog"
+    },
+    {
+      "name": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kalpshah18/",
+      "icon": "/assets/linkedin.png"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/kalpshah18",
+      "icon": "/assets/github.png"
+    }
+  ],
+  "about": {
+    "subtitle": "Get to Know More",
+    "title": "About Me",
+    "aboutImage": "/assets/CouncilOrientation.jpg",
+    "aboutCaption": "At the Technical Council Orientation 2026-27",
+    "experienceCard": {
+      "title": "Experience",
+      "icon": "/assets/Graviton.png",
+      "iconLink": "http://gravitontrading.com/",
+      "items": [
+        {
+          "role": "SDE Intern (Quant Tools)",
+          "organization": "Graviton Research Capital",
+          "duration": "(July 2027 - December 2027)"
+        }
+      ]
+    },
+    "educationCard": {
+      "title": "Education",
+      "icon": "/assets/IITGNColor.png",
+      "iconLink": "https://www.iitgn.ac.in",
+      "items": [
+        {
+          "degree": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",
+          "duration": "2024 - 2028"
+        }
+      ]
+    },
+    "bioParagraphs": [
+      "I'm drawn to the point where mathematics meets computing, where abstract theory turns into algorithms that actually solve problems. I like working on projects that sit at that intersection: designing efficient algorithms, building computational models, or digging into data to find patterns that matter. What excites me most is taking a mathematical idea and shaping it into something that runs, scales, and holds up in the real world.",
+      "Lately I've been focused on low-latency systems, the kind of engineering where every microsecond counts. I'm exploring how new algorithms and machine learning techniques can be integrated into systems engineering to push performance further, without sacrificing reliability."
+    ]
+  },
+  "projects": {
+    "subtitle": "Browse My Recent",
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Belief Tracking for Countering LLM Negotiation Agents using Hidden Markov Models",
+        "description": "Research Project on Agentic Negotiation, using HMMs to model negotiation strategies and probabilities of preferences.",
+        "image": "/assets/HMM-Neg.png",
+        "buttons": [
+          {
+            "label": "Project Link",
+            "url": "https://github.com/kalpshah18/HMM-Based-Belief-Tracking-for-LLM-Negotiation"
+          }
+        ]
+      },
+      {
+        "title": "osl.",
+        "description": "Compiler for an unambiguous programming language. Custom unambiguous grammar with custom bytecode and virtual machine.",
+        "image": "/assets/osl.png",
+        "buttons": [
+          {
+            "label": "Project Link",
+            "url": "https://github.com/mshandilya/osl."
+          },
+          {
+            "label": "Documentation",
+            "url": "https://guntas-13.github.io/osl.docs/"
+          }
+        ]
+      },
+      {
+        "title": "Secure ATM",
+        "description": "A secure client-server ATM simulation implementing custom encrypted communication with mutual authentication.",
+        "image": "/assets/3-atm.png",
+        "buttons": [
+          {
+            "label": "Project Link",
+            "url": "https://github.com/guntas-13/secure-atm"
+          },
+          {
+            "label": "Deployed UI",
+            "url": "https://guntas-13.github.io/secure-atm/"
+          }
+        ]
+      }
+    ]
+  },
+  "posters": {
+    "subtitle": "Checkout My",
+    "title": "Posters",
+    "posters": [
+      {
+        "title": "Identifying Appropriate Landing Locations for Mars Rover using Computer Vision",
+        "subtitle": "Supervisor: Prof. Shanmuganathan Raman",
+        "image": "/assets/EE299_Poster_Kalp.png",
+        "buttonLabel": "Poster Link",
+        "url": "https://drive.google.com/file/d/12Waq8WWIeSgllUhhJSCgVeoda9_2_jpi/view"
+      }
+    ]
+  },
+  "pors": {
+    "subtitle": "Explore My",
+    "title": "PORs",
+    "groups": [
+      {
+        "items": [
+          {
+            "title": "Contingent Leader",
+            "organization": "Inter IIT Tech Meet 15.0, IIT Gandhinagar"
+          },
+          {
+            "title": "Technical Coordinator",
+            "organization": "Technical Council, IIT Gandhinagar '26-27 (Umbrella Organization for Technical Clubs)"
+          },
+          {
+            "title": "Sponsorship Team",
+            "organization": "Amalthea '24 - Annual Technical Summit of IIT Gandhinagar"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "title": "ADH Mentor",
+            "organization": "IIT Gandhinagar - ES115 : Design, Innovation and Prototyping"
+          },
+          {
+            "title": "Technical Team",
+            "organization": "Entrepreneurship Initiative (E-Cell)"
+          },
+          {
+            "title": "Outreach Coordinator",
+            "organization": "Technical Council, IIT Gandhinagar '25-26"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Get in Touch",
+    "title": "Contact Me",
+    "email": "kalpshah1808@gmail.com",
+    "linkedin": {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kalpshah18/"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 Kalp Shah. All Rights Reserved."
+  }
+}
