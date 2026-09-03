@@ -9,7 +9,7 @@ import { BlogPostMeta } from "@/types/portfolio";
 export const metadata: Metadata = {
   title: "Blog | Kalp Shah",
   description:
-    "Thoughts on algorithms, low-latency systems, quantitative ideas, and more.",
+    "My thoughts and experiences written out for the world to see",
 };
 
 function formatDate(dateStr: string) {
@@ -76,8 +76,7 @@ export default function BlogIndexPage() {
         </p>
         <h1 className="text-4xl sm:text-5xl font-semibold text-black">Blog</h1>
         <p className="mt-4 text-base text-neutral-500 max-w-lg mx-auto leading-relaxed">
-          Thoughts on algorithms, low-latency systems, quantitative ideas, and
-          whatever I'm currently building or reading.
+          Thoughts and experiences
         </p>
       </section>
 
