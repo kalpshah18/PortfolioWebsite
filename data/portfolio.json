@@ -19,7 +19,7 @@
   "navLinks": [
     {
       "name": "About",
-      "href": "#about"
+      "href": "/#about"
     },
     {
       "name": "Resume",
@@ -28,24 +28,23 @@
     },
     {
       "name": "Blog",
-      "href": "https://kalpshah18.github.io/blog",
-      "isExternal": true
+      "href": "/blog"
     },
     {
       "name": "Projects",
-      "href": "#projects"
+      "href": "/#projects"
     },
     {
       "name": "Posters",
-      "href": "#posters"
+      "href": "/#posters"
     },
     {
       "name": "PORs",
-      "href": "#blog"
+      "href": "/#blog"
     },
     {
       "name": "Contact",
-      "href": "#contact"
+      "href": "/#contact"
     }
   ],
   "socials": [

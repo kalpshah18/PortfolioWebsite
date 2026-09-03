@@ -133,3 +133,15 @@ export interface PortfolioData {
     copyright: string;
   };
 }
+
+export interface BlogPostMeta {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  tags: string[];
+}
+
+export interface BlogPost extends BlogPostMeta {
+  contentHtml: string;
+}
