@@ -2,12 +2,12 @@
   "meta": {
     "title": "Portfolio Kalp",
     "description": "Personal Portfolio Website of Kalp Shah",
-    "favicon": "/assets/favicon.png"
+    "favicon": "/assets/favicon.gif"
   },
   "personal": {
     "name": "Kalp Shah",
     "logoName": "Kalp Shah",
-    "logoIcon": "/assets/favicon.png",
+    "logoIcon": "/assets/favicon.gif",
     "roleGreeting": "Hi! This is",
     "headlineRole": "Incoming Quant Dev Intern @ Graviton Research Capital",
     "subRole": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",

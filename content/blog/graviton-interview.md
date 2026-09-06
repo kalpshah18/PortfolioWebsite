@@ -1,8 +1,8 @@
 ---
 title: "Graviton Interview Writeup"
-date: "2026-09-03"
+date: "2026-09-02"
 excerpt: "A Detailed Walkthrough of my Interview Process at Graviton"
-tags: ["interview", "experience"]
+tags: ["interview", "experience", "quant"]
 ---
 
 - **Role**: SDE Intern (Quant Tools)
