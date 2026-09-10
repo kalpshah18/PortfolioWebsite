@@ -97,6 +97,17 @@
     "title": "Projects",
     "projects": [
       {
+        "title": "Low Latency Trade Matching Engine",
+        "description": "Sub-microsecond order execution engine designed for high-frequency trading (HFT) environments. Built with modern C++26, utilizing std::hive for high-density memory layouts to maximize throughput under heavy market data load.",
+        "image": "/assets/TradeMatchingEngine.png",
+        "buttons": [
+          {
+            "label": "Project Link",
+            "url": "https://github.com/kalpshah18/TradeMatchingEngine"
+          }
+        ]
+      },
+      {
         "title": "Belief Tracking for Countering LLM Negotiation Agents using Hidden Markov Models",
         "description": "Research Project on Agentic Negotiation, using HMMs to model negotiation strategies and probabilities of preferences.",
         "image": "/assets/HMM-Neg.png",
@@ -112,12 +123,6 @@
             "url": "https://github.com/kalpshah18/InterIITTech_"
           }
         ]
-      },
-      {
-        "title": "Low Latency Trade Matching Engine",
-        "description": "Sub-microsecond order execution engine designed for high-frequency trading (HFT) environments. Built with modern C++26, utilizing std::hive for high-density memory layouts to maximize throughput under heavy market data load.",
-        "image": "/assets/TradeMatchingEngine.png",
-        "buttons": []
       }
     ]
   },
