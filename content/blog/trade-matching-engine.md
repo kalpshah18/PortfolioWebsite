@@ -5,6 +5,8 @@ excerpt: "Creating a Trade Matching Engine in C++26 using std::hive"
 tags: ["low-latency", "quant", "C++"]
 ---
 
+(Github)[https://github.com/kalpshah18/TradeMatchingEngine]
+
 ## Why a Trade Matching Engine?
 
 A matching engine sits at the core of every exchange, turning a stream of buy and sell orders into actual trades. It's a deceptively simple concept at a high level—orders come in, trades go out—but the performance and correctness constraints are brutal. Building one from scratch forces you to grapple with the same problems quant devs face daily: lock-free data structures, cache-aware memory layouts, deterministic latency under load, and squeezing nanoseconds out of a hot path. Every design decision, from your choice of container to your allocation strategy, has measurable, benchmarkable consequences. For someone targeting quant dev roles, few projects demonstrate relevant skills as directly.
