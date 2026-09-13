@@ -1,0 +1,109 @@
+{
+  "title": "Teaching & Academic Course Materials",
+  "subtitle": "Indian Institute of Technology Gandhinagar",
+  "institution": "IIT Gandhinagar",
+  "institutionLogo": "/assets/IITGNColor.png",
+  "overview": "Lecture slides, notes, assignments, and reference materials for courses and academic labs taught at IIT Gandhinagar.",
+  "officeLocation": "IIT Gandhinagar, Palaj, Gandhinagar - 382355",
+  "email": "kalp.shah@iitgn.ac.in",
+  "courses": [
+    {
+      "id": "SC416-2026",
+      "slug": "sc416",
+      "code": "SC 416",
+      "title": "Agentic AI in Langchain",
+      "term": "Academic Year 2026-27",
+      "role": "Course Instructor",
+      "status": "active",
+      "description": "",
+      "department": "Department of Computer Science and Engineering",
+      "instructor": "Kalp Shah and Jils Shah",
+      "teachingAssistants": [],
+      "timings": "10 PM - 11:30 PM",
+      "venue": "AB1/101",
+      "officeHours": "",
+      "syllabusUrl": "",
+      "announcements": [
+        {
+          "date": "2026-09-13",
+          "title": "Welcome to SC 416!",
+          "content": "Check the schedule below for upcoming lectures."
+        }
+      ],
+      "lectures": [
+        {
+          "number": 1,
+          "date": "2026-09-17",
+          "topic": "Course Introduction, Introduction to LangChain & Agents, Basics, Installation & Setup, LangChain Overview",
+          "instructor": "Mr. Kalp Shah and Mr. Jils Shah",
+          "duration": "1.5 hours",
+          "time": "10:00–11:30 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        },
+        {
+          "number": 2,
+          "date": "2026-09-18",
+          "topic": "Core Components: Models, Messages & Tools for Agents",
+          "instructor": "Mr. Kalp Shah",
+          "duration": "1 hour",
+          "time": "10:00–11:00 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        },
+        {
+          "number": 3,
+          "date": "2026-09-19",
+          "topic": "Agent Invocation & State Management, System Prompts, Dynamic Prompts",
+          "instructor": "Mr. Jils Shah",
+          "duration": "1 hour",
+          "time": "10:00–11:00 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        },
+        {
+          "number": 4,
+          "date": "2026-09-20",
+          "topic": "Structured Output & Memory, Short-term Memory, State Schemas",
+          "instructor": "Mr. Jils Shah",
+          "duration": "1 hour",
+          "time": "10:00–11:00 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        },
+        {
+          "number": 5,
+          "date": "2026-09-21",
+          "topic": "Streaming & Middleware, Tool Error Handling, Logging & Observability",
+          "instructor": "Mr. Jils Shah",
+          "duration": "1.5 hours",
+          "time": "10:00–11:30 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        },
+        {
+          "number": 6,
+          "date": "2026-09-25",
+          "topic": "Advanced Concepts: Multi-agent Systems, Retrieval, Long-term Memory, Human-in-loop, Model Context Protocol",
+          "instructor": "Mr. Kalp Shah",
+          "duration": "1.5 hours",
+          "time": "10:00–11:30 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        },
+        {
+          "number": 7,
+          "date": "2026-09-26",
+          "topic": "Hands-on Project & Deployment, Building Real-world Agentic Applications, Review & Q&A",
+          "instructor": "Mr. Kalp Shah and Mr. Jils Shah",
+          "duration": "2 hours",
+          "time": "9:30–11:30 AM",
+          "slidesUrl": "#",
+          "notesUrl": "#"
+        }
+      ],
+      "assignments": [],
+      "references": []
+    }
+  ]
+}
