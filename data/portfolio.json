@@ -11,9 +11,9 @@
     "roleGreeting": "Hi! This is",
     "headlineRole": "Incoming Quant Dev Intern @ Graviton Research Capital",
     "subRole": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",
-    "profileImage": "/assets/pf.jpeg",
+    "profileImage": "/assets/BoardMeet.jpg",
     "resumeUrl": "/cv",
-    "resumeButtonText": "Download CV",
+    "resumeButtonText": "View CV",
     "contactButtonText": "Contact Me"
   },
   "navLinks": [
@@ -108,10 +108,15 @@
         ]
       },
       {
-        "title": "Belief Tracking for Countering LLM Negotiation Agents using Hidden Markov Models",
-        "description": "Research Project on Agentic Negotiation, using HMMs to model negotiation strategies and probabilities of preferences.",
-        "image": "/assets/HMM-Neg.png",
-        "buttons": []
+        "title": "Shared GPU Allocation Methods",
+        "description": "Game-theoretic research study on how to allocate GPU Resources in corporate settings to various teams. Implemented a multi-agent system to simulate various allocation strategies and their impact on Profits and Fairness.",
+        "image": "/assets/gpu.png",
+        "buttons": [
+          {
+            "label": "Project Link",
+            "url": "https://github.com/kalpshah18/Shared-GPU-Allocation"
+          }
+        ]
       },
       {
         "title": "Realtime Carbon Credits Markets Analysis Platform",
@@ -128,7 +133,7 @@
   },
   "posters": {
     "subtitle": "Checkout My",
-    "title": "Posters",
+    "title": "Research Posters",
     "posters": [
       {
         "title": "Identifying Appropriate Landing Locations for Mars Rover using Computer Vision",
