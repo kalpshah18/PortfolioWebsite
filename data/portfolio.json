@@ -10,7 +10,7 @@
     "logoIcon": "/assets/favicon.gif",
     "roleGreeting": "Hi! This is",
     "headlineRole": "Incoming Quant Dev Intern @ Graviton Research Capital",
-    "subRole": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",
+    "subRole": "Student at Indian Institute of Technology Gandhinagar",
     "profileImage": "/assets/BoardMeet.jpg",
     "resumeUrl": "/cv",
     "resumeButtonText": "View CV",
@@ -82,14 +82,14 @@
       "iconLink": "https://www.iitgn.ac.in",
       "items": [
         {
-          "degree": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIIT Gandhinagar",
+          "degree": "B.Tech Electrical Engineering with Minor in Computer Science and Engineering\nIndian Institute of Technology Gandhinagar",
           "duration": "2024 - 2028"
         }
       ]
     },
     "bioParagraphs": [
-      "I'm drawn to the point where mathematics meets computing, where abstract theory turns into algorithms that actually solve problems. I like working on projects that sit at that intersection: designing efficient algorithms, building computational models, or digging into data to find patterns that matter. What excites me most is taking a mathematical idea and shaping it into something that runs, scales, and holds up in the real world.",
-      "Lately I've been focused on low-latency systems, the kind of engineering where every microsecond counts. I'm exploring how new algorithms and machine learning techniques can be integrated into systems engineering to push performance further, without sacrificing reliability."
+      "I like working on projects that sit at that intersection: designing efficient algorithms, building computational models, or digging into data to find patterns that matter. What excites me most is taking a mathematical idea and shaping it into something that runs, scales, and holds up in the real world.",
+      "My research interests lie in the areas of High-Performance Computing, Distributed Systems, and Game Theory. I have a strong foundation in C++ and Python, and I enjoy exploring new technologies and frameworks to enhance my skills."
     ]
   },
   "projects": {
@@ -133,7 +133,7 @@
   },
   "posters": {
     "subtitle": "Checkout My",
-    "title": "Research Posters",
+    "title": "Research",
     "posters": [
       {
         "title": "Identifying Appropriate Landing Locations for Mars Rover using Computer Vision",
@@ -141,6 +141,13 @@
         "image": "/assets/EE299_Poster_Kalp.png",
         "buttonLabel": "Poster Link",
         "url": "https://drive.google.com/file/d/12Waq8WWIeSgllUhhJSCgVeoda9_2_jpi/view"
+      },
+      {
+        "title": "Fairness, Efficiency, and Strategic Behaviour in Shared GPU Allocation",
+        "subtitle": "Supervisor: Prof. Manisha Padala",
+        "image": "/assets/gpu.png",
+        "buttonLabel": "Paper Link",
+        "url": "https://drive.google.com/file/d/1uprvcMUWQ_vRBFq5DtTMwSuMrfqwRffF/view?usp=sharing"
       }
     ]
   },
