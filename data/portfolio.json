@@ -108,13 +108,13 @@
         ]
       },
       {
-        "title": "Shared GPU Allocation Methods",
-        "description": "Game-theoretic research study on how to allocate GPU Resources in corporate settings to various teams. Implemented a multi-agent system to simulate various allocation strategies and their impact on Profits and Fairness.",
-        "image": "/assets/gpu.png",
+        "title": "Simulink-Based Android Security System",
+        "description": "Android-based physical security system built entirely in Simulink. In Node mode, a phone monitors ambient-light changes and gyroscope motion while armed, then reports breaches to a Monitor phone. The Monitor sounds an alert, displays the breach time and GPS location, and remotely controls the Node’s siren and arm/disarm state. A role slider lets the same app run on either phone.",
+        "image": "/assets/security-app.png",
         "buttons": [
           {
             "label": "Project Link",
-            "url": "https://github.com/kalpshah18/Shared-GPU-Allocation"
+            "url": "https://github.com/kalpshah18/Security-Node-App-DSP"
           }
         ]
       },
@@ -132,21 +132,28 @@
     ]
   },
   "posters": {
-    "subtitle": "Checkout My",
+    "subtitle": "Check out my",
     "title": "Research",
     "posters": [
       {
+        "title": "Flood Depth Estimation using Deep Learning",
+        "subtitle": "Advisor: Prof. Udit Bhatia",
+        "image": "/assets/flood.png",
+        "buttonLabel": "Paper",
+        "url": ""
+      },
+      {
         "title": "Identifying Appropriate Landing Locations for Mars Rover using Computer Vision",
-        "subtitle": "Supervisor: Prof. Shanmuganathan Raman",
-        "image": "/assets/EE299_Poster_Kalp.png",
-        "buttonLabel": "Poster Link",
+        "subtitle": "Advisor: Prof. Shanmuganathan Raman",
+        "image": "/assets/mars.png",
+        "buttonLabel": "Poster",
         "url": "https://drive.google.com/file/d/12Waq8WWIeSgllUhhJSCgVeoda9_2_jpi/view"
       },
       {
         "title": "Fairness, Efficiency, and Strategic Behaviour in Shared GPU Allocation",
-        "subtitle": "Supervisor: Prof. Manisha Padala",
+        "subtitle": "Advisor: Prof. Manisha Padala",
         "image": "/assets/gpu.png",
-        "buttonLabel": "Paper Link",
+        "buttonLabel": "Paper",
         "url": "https://drive.google.com/file/d/1uprvcMUWQ_vRBFq5DtTMwSuMrfqwRffF/view?usp=sharing"
       }
     ]
