@@ -14,7 +14,8 @@ import {
 } from "./questions";
 
 const DURATION_MS = 8 * 60 * 1000;
-const DEFAULT_SEED = "80-in-8";
+const randomSeed = () =>
+  Array.from(crypto.getRandomValues(new Uint32Array(2)), (n) => n.toString(36)).join("");
 const BEST_KEY = "optiver-80-in-8:best";
 
 interface Attempt {
@@ -40,7 +41,7 @@ function band(score: number) {
 export default function Game() {
   const [phase, setPhase] = useState<Phase>("intro");
   const [paper, setPaper] = useState<Question[]>([]);
-  const [seed, setSeed] = useState(DEFAULT_SEED);
+  const [seed, setSeed] = useState("");
   const [index, setIndex] = useState(0);
   const [value, setValue] = useState("");
   const [remaining, setRemaining] = useState(DURATION_MS);
@@ -89,10 +90,10 @@ export default function Game() {
 
   const startFromUrl = () => {
     const fromUrl = new URLSearchParams(window.location.search).get("seed");
-    start(fromUrl || DEFAULT_SEED);
+    start(fromUrl || randomSeed());
   };
 
-  const startFresh = () => start(Math.random().toString(36).slice(2, 8));
+  const startFresh = () => start(randomSeed());
 
   // Timer driven by an absolute deadline, so tab throttling can't stretch the 8 minutes.
   useEffect(() => {
@@ -173,7 +174,7 @@ export default function Game() {
             <li>Type your answer and press <b>Enter</b> to move on.</li>
             <li>Fractions are answered as decimals (e.g. 3/4 → 0.75).</li>
             <li>Every question scores 1 point if right, 0 if wrong. You see no feedback until the end.</li>
-            <li>Questions get harder as you go. Everyone in the room gets the same paper.</li>
+            <li>Questions get harder as you go. Every attempt is a freshly generated paper.</li>
           </ul>
           <button type="button" onClick={startFromUrl} className="btn btn-color-1 mt-2">
             Start
