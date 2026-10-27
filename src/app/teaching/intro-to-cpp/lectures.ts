@@ -27,5 +27,6 @@ export const lectures: Lecture[] = [
     summary:
       "if / else and switch, loops and patterns, Big-O intuition, arrays, vectors and their costs, and useful STL functions.",
     slug: "lecture-02",
+    resources: [{ label: "Recording", href: "https://youtu.be/dJVS3VD2F3M" }],
   },
 ];
