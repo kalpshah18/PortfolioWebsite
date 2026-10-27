@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 export default function IntroToCppPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12">
-      <Link href="/" className="text-sm text-theme-muted hover:underline">
-        ← Kalp Shah
+      <Link href="/teaching" className="text-sm text-theme-muted hover:underline">
+        ← All courses
       </Link>
 
       <header className="mt-8 mb-10">
