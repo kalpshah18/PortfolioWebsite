@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lecture 1: Getting Started | Intro to C++</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/slides.css">
+</head>
+<body>
+<div id="stage">
+
+  <section class="slide title">
+    <p class="sub">Intro to C++ · Lecture 1</p>
+    <h1>Getting Started</h1>
+    <p class="sub">Compiling, running, and your first programs</p>
+    <p class="small" style="margin-top:40px">Kalp Shah</p>
+  </section>
+
+  <section class="slide">
+    <h2>Today</h2>
+    <ul>
+      <li class="step">What C++ is and why it is still used</li>
+      <li class="step">From source file to running program</li>
+      <li class="step">Hello, world</li>
+      <li class="step">Variables, types and input/output</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Why C++?</h2>
+    <ul>
+      <li class="step">Compiled to machine code: fast, predictable performance</li>
+      <li class="step">Direct control over memory and hardware</li>
+      <li class="step">Used in games, trading systems, browsers, embedded and robotics</li>
+      <li class="step">Strongly typed: many mistakes are caught before the program runs</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>From source to program</h2>
+    <div class="cols">
+      <div>
+        <ol>
+          <li class="step"><b>Preprocess</b>: handle <code>#include</code></li>
+          <li class="step"><b>Compile</b>: C++ → object code</li>
+          <li class="step"><b>Link</b>: combine objects and libraries</li>
+          <li class="step"><b>Run</b>: the OS loads the executable</li>
+        </ol>
+      </div>
+      <div>
+        <pre class="step"><code>g++ -std=c++17 -Wall hello.cpp -o hello
+./hello</code></pre>
+        <p class="small step"><code>-Wall</code> turns on helpful warnings. Always use it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <h2>Hello, world</h2>
+    <pre class="big"><code class="cpp">
+      #include &lt;iostream&gt;
+
+      int main() {
+          std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;
+          return 0;
+      }
+    </code></pre>
+    <pre class="output step">Hello, world!</pre>
+  </section>
+
+  <section class="slide">
+    <h2>Anatomy of a program</h2>
+    <div class="cols">
+      <pre class="sm"><code class="cpp">
+        #include &lt;iostream&gt;   // 1
+
+        int main() {            // 2
+            std::cout           // 3
+                &lt;&lt; "Hi\n";      // 4
+            return 0;           // 5
+        }
+      </code></pre>
+      <ol class="small" style="font-size:22px">
+        <li>Pull in the I/O library</li>
+        <li>Execution starts at <code>main</code></li>
+        <li><code>std::cout</code> is the output stream</li>
+        <li><code>&lt;&lt;</code> sends data to the stream</li>
+        <li>Return code <code>0</code> means success</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="slide section">
+    <h2>Variables and types</h2>
+    <p>Every variable has a type, fixed at compile time</p>
+  </section>
+
+  <section class="slide">
+    <h2>Fundamental types</h2>
+    <table>
+      <tr><th>Type</th><th>Holds</th><th>Example</th></tr>
+      <tr><td><code>int</code></td><td>whole numbers</td><td><code>42</code></td></tr>
+      <tr><td><code>double</code></td><td>decimal numbers</td><td><code>3.14</code></td></tr>
+      <tr><td><code>char</code></td><td>one character</td><td><code>'a'</code></td></tr>
+      <tr><td><code>bool</code></td><td>true / false</td><td><code>true</code></td></tr>
+      <tr><td><code>std::string</code></td><td>text</td><td><code>"hello"</code></td></tr>
+    </table>
+  </section>
+
+  <section class="slide">
+    <h2>Reading input</h2>
+    <pre><code class="cpp">
+      #include &lt;iostream&gt;
+      #include &lt;string&gt;
+
+      int main() {
+          std::string name;
+          int age;
+          std::cout &lt;&lt; "Name and age? ";
+          std::cin &gt;&gt; name &gt;&gt; age;
+          std::cout &lt;&lt; name &lt;&lt; " will be " &lt;&lt; age + 1 &lt;&lt; " next year\n";
+      }
+    </code></pre>
+    <pre class="output step">Name and age? Asha 20
+Asha will be 21 next year</pre>
+  </section>
+
+  <section class="slide">
+    <h2>Watch out</h2>
+    <pre><code class="cpp">
+      int x;                  // uninitialized!
+      std::cout &lt;&lt; x;         // undefined behavior
+
+      int y = 7 / 2;          // 3, integer division
+      double z = 7 / 2.0;     // 3.5
+    </code></pre>
+    <div class="callout warn step">Always initialize your variables.</div>
+  </section>
+
+  <section class="slide">
+    <h2>Practice</h2>
+    <ol>
+      <li>Install a compiler (g++ or clang++) and run Hello, world</li>
+      <li>Read two numbers and print their sum, difference and average</li>
+      <li>Compile with <code>-Wall</code> and fix every warning</li>
+    </ol>
+    <p class="small" style="margin-top:24px">Next lecture: control flow and functions</p>
+  </section>
+
+</div>
+<script src="assets/slides.js"></script>
+</body>
+</html>

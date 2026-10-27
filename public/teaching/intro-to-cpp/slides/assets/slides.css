@@ -1,0 +1,148 @@
+/* Shared styles for Intro to C++ lecture slides. */
+:root {
+  --bg: #ffffff;
+  --fg: #1f1f1f;
+  --muted: #555555;
+  --accent: #2b5fd9;
+  --border: #d4d4d4;
+  --code-bg: #f4f5f7;
+  --kw: #a626a4;
+  --str: #50a14f;
+  --num: #b76b01;
+  --com: #8a8a8a;
+  --pre: #0b7285;
+  --type: #c18401;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Poppins', system-ui, sans-serif;
+  overflow: hidden;
+}
+
+/* Slides are laid out on a 1280x720 stage that is scaled to fit the window. */
+#stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1280px;
+  height: 720px;
+  transform-origin: center center;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  padding: 64px 88px;
+  display: none;
+  flex-direction: column;
+  background: var(--bg);
+}
+.slide.active { display: flex; }
+
+.slide h1 { font-size: 64px; margin: 0 0 16px; font-weight: 600; line-height: 1.1; }
+.slide h2 { font-size: 44px; margin: 0 0 28px; font-weight: 600; padding-bottom: 14px; border-bottom: 3px solid var(--border); }
+.slide h3 { font-size: 30px; margin: 0 0 12px; font-weight: 500; }
+.slide p, .slide li { font-size: 28px; line-height: 1.45; color: var(--fg); }
+.slide ul, .slide ol { margin: 0; padding-left: 36px; }
+.slide li { margin-bottom: 10px; }
+.slide li li { font-size: 24px; color: var(--muted); }
+.slide .sub { font-size: 28px; color: var(--muted); margin: 0; }
+.slide .small { font-size: 20px; color: var(--muted); }
+
+.slide.title { justify-content: center; }
+.slide.title h1 { font-size: 76px; }
+.slide.section { justify-content: center; background: #353535; }
+.slide.section h2 { color: #fff; border: 0; font-size: 60px; margin: 0; }
+.slide.section p { color: #cfcfcf; }
+
+.cols { display: flex; gap: 40px; flex: 1; min-height: 0; }
+.cols > * { flex: 1; min-width: 0; }
+
+code, pre { font-family: 'JetBrains Mono', 'Fira Code', Consolas, Menlo, monospace; }
+:not(pre) > code {
+  background: var(--code-bg);
+  padding: 1px 8px;
+  border-radius: 6px;
+  font-size: 0.88em;
+}
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 26px;
+  margin: 0 0 16px;
+  font-size: 24px;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: pre;
+}
+pre.big { font-size: 30px; }
+pre.sm { font-size: 20px; }
+pre.output { background: #1f1f1f; color: #e8e8e8; border-color: #1f1f1f; }
+pre.output::before { content: "output"; display: block; font: 600 14px 'Poppins', sans-serif; color: #9a9a9a; margin-bottom: 6px; letter-spacing: .08em; text-transform: uppercase; }
+
+.tok-kw { color: var(--kw); }
+.tok-str { color: var(--str); }
+.tok-num { color: var(--num); }
+.tok-com { color: var(--com); font-style: italic; }
+.tok-pre { color: var(--pre); }
+.tok-type { color: var(--type); }
+
+.callout {
+  border-left: 6px solid var(--accent);
+  background: #eef3fd;
+  padding: 14px 22px;
+  border-radius: 0 10px 10px 0;
+  font-size: 26px;
+  margin-top: 8px;
+}
+.callout.warn { border-color: #d9822b; background: #fdf3e7; }
+
+table { border-collapse: collapse; font-size: 26px; }
+th, td { border: 1px solid var(--border); padding: 8px 18px; text-align: left; }
+th { background: var(--code-bg); }
+
+/* Step-by-step reveals: elements with class "step" appear one at a time. */
+.step { visibility: hidden; }
+.step.shown { visibility: visible; }
+
+/* Chrome */
+#progress { position: fixed; left: 0; top: 0; height: 4px; background: var(--accent); width: 0; z-index: 10; transition: width .2s; }
+#counter { position: fixed; right: 18px; bottom: 12px; font-size: 14px; color: var(--muted); z-index: 10; user-select: none; }
+#home { position: fixed; left: 18px; bottom: 12px; font-size: 14px; color: var(--muted); z-index: 10; text-decoration: none; }
+#home:hover { text-decoration: underline; }
+body.present #home, body.present #counter { opacity: .35; }
+
+/* Overview grid (press O or Esc) */
+body.overview { overflow: auto; background: #ececec; }
+body.overview #stage {
+  position: static; transform: none !important; width: auto; height: auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; padding: 24px 24px 60px;
+}
+body.overview .slide {
+  position: relative; display: flex; width: 1280px; height: 720px; zoom: 0.25;
+  border: 2px solid var(--border); cursor: pointer; overflow: hidden;
+}
+body.overview .slide.active { outline: 6px solid var(--accent); }
+body.overview .step { visibility: visible; }
+
+#help {
+  position: fixed; inset: 0; background: rgba(0,0,0,.8); color: #fff; z-index: 20;
+  display: none; align-items: center; justify-content: center; font-size: 20px; line-height: 1.9;
+}
+#help.open { display: flex; }
+
+@media print {
+  html, body { overflow: visible; height: auto; }
+  #stage { position: static; transform: none !important; width: auto; height: auto; }
+  .slide { position: relative; display: flex !important; width: 1280px; height: 720px; page-break-after: always; }
+  .step { visibility: visible; }
+  #progress, #counter, #home, #help { display: none !important; }
+  @page { size: 1280px 720px; margin: 0; }
+}
