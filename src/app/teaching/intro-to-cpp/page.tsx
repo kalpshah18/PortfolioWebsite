@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { courses } from "../courses";
 import { lectures } from "./lectures";
+
+const course = courses.find((c) => c.slug === "intro-to-cpp")!;
 
 export const metadata: Metadata = {
   title: "Intro to C++ | Kalp Shah",
@@ -16,6 +19,9 @@ export default function IntroToCppPage() {
 
       <header className="mt-8 mb-10">
         <h1 className="text-4xl font-semibold text-black">Intro to C++</h1>
+        {course.instructors && (
+          <p className="mt-2 text-theme-muted">Instructors: {course.instructors.join(", ")}</p>
+        )}
         <p className="mt-3 text-lg">
           Lecture slides and resources. Slides open in a new page and can be presented full screen (press F).
         </p>

@@ -30,6 +30,9 @@ export default function TeachingPage() {
                 {[course.code, course.term, course.institution].filter(Boolean).join(" · ")}
               </p>
               <h2 className="mt-1 mb-2 text-2xl font-medium text-black">{course.title}</h2>
+              {course.instructors && (
+                <p className="mt-0 mb-2 text-sm text-theme-muted">Instructors: {course.instructors.join(", ")}</p>
+              )}
               <p className="m-0">{course.description}</p>
               <span className="inline-block mt-4 text-sm font-medium text-black underline underline-offset-4">
                 Open course →

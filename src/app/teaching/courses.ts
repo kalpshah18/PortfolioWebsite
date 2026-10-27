@@ -4,6 +4,7 @@ export interface Course {
   title: string;
   term: string;
   institution: string;
+  instructors?: string[];
   description: string;
 }
 
@@ -15,6 +16,7 @@ export const courses: Course[] = [
     title: "Introduction to C++ and the STL",
     term: "Autumn 2026",
     institution: "IIT Gandhinagar",
+    instructors: ["Bhavay Goyal", "Kalp Shah", "Ramji Purwar"],
     description:
       "Short course for beginners: control flow, time complexity, arrays, vectors and the STL. Lecture slides, recordings and practice sheets.",
   },
