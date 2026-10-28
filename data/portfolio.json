@@ -112,13 +112,13 @@
         ]
       },
       {
-        "title": "Simulink-Based Android Security System",
-        "description": "Android-based physical security system built entirely in Simulink. In Node mode, a phone monitors ambient-light changes and gyroscope motion while armed, then reports breaches to a Monitor phone. The Monitor sounds an alert, displays the breach time and GPS location, and remotely controls the Node’s siren and arm/disarm state. A role slider lets the same app run on either phone.",
-        "image": "/assets/security-app.png",
+        "title": "CHIP-8 Emulator",
+        "description": "CHIP-8 interpreter in C++17 with SDL2 implementing all 34 opcodes, 4 KB of memory, a 16-level stack, and a 64×32 XOR-drawn display with keypad input and square-wave audio. 60 Hz timers are decoupled from a configurable CPU rate (700 instructions/sec by default) using a time accumulator, and 4 runtime-configurable quirk flags support both COSMAC VIP and SCHIP programs.",
+        "image": "/assets/chip8.png",
         "buttons": [
           {
             "label": "Project Link",
-            "url": "https://github.com/kalpshah18/Security-Node-App-DSP"
+            "url": "https://github.com/kalpshah18/CHIP8-Emulator"
           }
         ]
       },
