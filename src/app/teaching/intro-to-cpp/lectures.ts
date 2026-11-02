@@ -29,4 +29,10 @@ export const lectures: Lecture[] = [
     slug: "lecture-02",
     resources: [{ label: "Recording", href: "https://youtu.be/dJVS3VD2F3M" }],
   },
+  {
+    number: 3,
+    title: "Vectors Recap and Strings",
+    summary: "A recap of vectors, followed by strings in C++ and the operations you use on them.",
+    slug: "lecture-03",
+  },
 ];
