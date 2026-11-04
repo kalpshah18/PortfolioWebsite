@@ -35,4 +35,10 @@ export const lectures: Lecture[] = [
     summary: "A recap of vectors, followed by strings in C++ and the operations you use on them.",
     slug: "lecture-03",
   },
+  {
+    number: 5,
+    title: "Sets, Maps and Unordered Maps",
+    summary: "Sets, maps and unordered maps in C++: how they work, their costs, and when to use each.",
+    slug: "lecture-05",
+  },
 ];
