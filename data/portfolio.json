@@ -143,8 +143,8 @@
         "title": "Flood Depth Estimation using Deep Learning",
         "subtitle": "Advisor: Prof. Udit Bhatia",
         "image": "/assets/flood.png",
-        "buttonLabel": "Paper",
-        "url": ""
+        "buttonLabel": "Website",
+        "url": "https://kalpshah18.github.io/FloodCam/"
       },
       {
         "title": "Identifying Appropriate Landing Locations for Mars Rover using Computer Vision",
